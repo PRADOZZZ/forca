@@ -2,35 +2,39 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="Jogo da Forca" content="Se desafie, tente acertar a palavra secreta, entre mais de 370 mil palavras na lingua portuguesa, há apenas uma que foi escolhida, divirta-se tentando descobrir qual é a palavra!">
-    <title>Ache a palava - Prado</title>
+    <title>Star Wars Forca</title>
     <link rel="stylesheet" href="style.css">
 </head>
-        <header>
-            <h1 class="titulo">DESCUBRA A PALAVRA!</h1>
-            
-            <a class="cabeçalho-item" href="https://www.instagram.com/nbk_eduardo/">Instagram</a>
-            <a class="cabeçalho-item" href="https://x.com/tatatreze_nbk">X/Twitter</a>
-            <a class="cabeçalho-item" href="https://github.com/PRADOZZZ">GitHub</a>
-            <a class="cabeçalho-item" href="https://www.linkedin.com/in/eduardo-prado-da-silva-73022524b/">Linkedin</a>
-         
-        </header>
 <body>
+   
 
-  <h2></h2>
-           
-            <h2> Que a forca esteja com você!</h2>
-            <p id="palavra"></P>
-            <p>Tentativas restantes<span id="tentativas">12</span></p>
-            <div class="formato"></div><div id="letras"></div></div>
-            <p id="mensagem"></p>
-    <script src="script.js"></script>>
-  
-  
-  
-                      <footer class="rodape">
-                          <p class="rodape-c">---© 2025, all rights reserved by developer Prado---</p>
+     <!-- Botão para outro HTML -->
+    <a href="musica.html" class="btn-top">Voltar ao site inicial</a>
 
+    <div class="stars"></div>
+
+
+
+    <!-- Palavra e tentativas -->
+    <main>
+       <br><br><br><br><br><br><br> <h1 id="palavra" class="holograma"></h1><br><br>
+        <p id="mensagem" class="holograma"></p>
+        <div id="letras"></div>
+         <p class="tentativas-texto">Tentativas restantes: <span id="tentativas">12</span></p>
+     
+        <!-- Botão de recarregar --> <br><br>
+<button class="btn-reload" onclick="atualizarPagina()">Reiniciar Jogo</button>
+
+    </main>
+
+    <audio id="audio-background" autoplay loop>
+        <source src="musicas/Star Wars Main Theme (Full).mp3" type="audio/mp3">
+    </audio>
+
+    <footer>
+        <p>-© 2025, desenvolvido por Prado-</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
