@@ -1,6 +1,6 @@
 // ===================== CONFIGURAÇÃO DO JOGO =====================
 const palavras = {
-    personagens: ["luke", "vader", "chewbacca", "palpatine", "yoda", "leia", "anakin", "obiwan", "rey"],
+    personagens: ["luke", "vader", "chewbacca","jabba","ahsoka", "stormtrooper", "han", "kylo", "lando", "palpatine", "yoda", "leia", "anakin", "obiwan", "rey"],
     planetas: ["tatooine", "naboo", "endor", "hoth", "coruscant"],
     naves: ["falcon", "deathstar", "tie", "xwing", "starcruiser"]
 };

@@ -12,10 +12,14 @@ body {
   animation: fundo 10s infinite;
 }
 
-.imgg {
+img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* ===== Cabeçalho ajustado ===== */
@@ -51,9 +55,12 @@ header {
   color: #00ffff;;
 }
 
+
+
 main {
-  text-align: center;
-  padding: 30px 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 h2 {
@@ -63,7 +70,7 @@ h2 {
   margin-bottom: 15px;
   margin-top: 118px;
   margin-left: 37vw;
-  color: yellow;
+  color: rgb(164, 164, 41);
   justify-content: center;
 }
 
@@ -84,16 +91,6 @@ h3 {
   color: #cfdfff;
 }
 
-footer {
-  text-align: center;
-  margin: 0;
-  padding: 15px 20px;
-  font-size: 0.9rem;
-  margin-top: 50px;
-  opacity: 90%;
-  animation-name: animação;
-  animation-duration: 1s;
-}
 
 /* ===== Animações ===== */
 
@@ -142,8 +139,7 @@ audio {
 
 /* ===== Caixa de texto ===== */
 .text-box {
-  margin-left: 40vw;
-  margin-top: -110vh;
+
   justify-content: center;
   background-color: #C49831;
   color: #ffffff;
